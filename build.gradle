@@ -32,7 +32,6 @@ dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.7.0-M1')
 }
 
-
 tasks.named('test') {
     useJUnitPlatform()
 }
@@ -52,6 +51,6 @@ jacocoTestCoverageVerification {
 }
 
 application {
-    mainClassName = 'com.hajar.calculator'
+    mainClassName = 'com.hajar.calculator.CalculatorApplication'
 }
 
